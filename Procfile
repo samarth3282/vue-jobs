@@ -1,1 +1,1 @@
-web: json-server --watch src/jobs.json --port 5000
+web: json-server --watch jobs.json --port $PORT
