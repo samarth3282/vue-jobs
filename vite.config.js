@@ -9,7 +9,7 @@ export default defineConfig({
     port: 3000,
     proxy: {
       "/api": {
-        target: "https://vue-jobs-ihbo.onrender.com/",
+        target: "https://vue-jobs-backend.onrender.com/",
         changeOrigin: true,
         rewrite: (path) => path.replace(/^\/api/, ""),
       },
